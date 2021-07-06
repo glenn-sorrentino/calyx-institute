@@ -1,0 +1,87 @@
+@media (prefers-color-scheme: light) {
+  .highlight {
+    background-color: var(--calyx-base);
+    color: white;
+  }
+
+  header {
+    /* background-color: var(--calyx-base) !important; */
+  }
+
+  header h1 {
+    /* color: white; */
+  }
+
+  header a {
+    /* color: white; */
+  }
+
+  header .btn {
+    /* background-color: transparent; */
+    /* color: white; */
+    /* border: var(--border-dm); */
+  }
+
+  header .highlight {
+    background-color: var(--calyx-light);
+    color: var(--calyx-dark);
+  }
+
+  .icon.calyx {
+    background-image: url('../../assets/images/lm-logo-calyx.png');
+    /* margin: 0 auto var(--spacing-medium) auto; */
+  }
+
+  .intro {
+    /* background-color: var(--calyx-base); */
+    background: no-repeat url('../../assets/images/intro-lm.png');
+    /* text-align: center; */
+    background-size: 60%;
+    background-position-x: calc(100% + var(--spacing-xxlarge)) !important;
+    background-position-y: 60% !important;
+  }
+
+  .intro h1 {
+    color: var(--calyx-dark);
+    /* margin: 0 auto var(--spacing-medium) auto; */
+  }
+
+  .intro p {
+    /* color: white; */
+    /* margin: 0 auto; */
+  }
+
+  .intro .highlight {
+    background-color: var(--calyx-light);
+    color: var(--calyx-dark);
+  }
+
+  /* .intro .primaryBtn {
+  background-color: white;
+  color: var(--calyx-dark);
+} */
+  .primaryBtn {
+    background-color: var(--calyx-base);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .intro .highlight {
+    background-color: var(--calyx-light);
+    color: var(--calyx-dark);
+  }
+
+  .intro {
+    /* background-color: var(--calyx-base); */
+    background: no-repeat url('../../assets/images/intro-dm.png');
+    /* text-align: center; */
+    background-size: 60%;
+    background-position-x: calc(100% + var(--spacing-xxlarge)) !important;
+    background-position-y: 60% !important;
+  }
+
+  header .highlight {
+    background-color: var(--calyx-light);
+    color: var(--calyx-dark);
+  }
+}
